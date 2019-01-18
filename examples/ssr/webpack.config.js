@@ -49,7 +49,7 @@ module.exports = [
     },
   },
   {
-    entry: ['babel-polyfill', './src/app/browser.js'],
+    entry: ['babel-polyfill', './src/browser.js'],
     output: {
       path: path.join(__dirname, 'dist/assets'),
       publicPath: '/',
