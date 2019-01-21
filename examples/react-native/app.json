@@ -1,12 +1,29 @@
 {
   "expo": {
-    "sdkVersion": "25.0.0",
-    "name": "React InstantSearch for React Native",
-    "description":
-      "Showcase the Algolia Search Experience inside a React Native application. \n\n => Code can be found at https://github.com/algolia/react-instantsearch/tree/master/examples/react-native \n\n => See React InstantSearch documentation website at https://community.algolia.com/react-instantsearch/",
-    "slug": "algolia-react-instantsearch",
-    "orientation": "portrait",
+    "name": "react-native-v2",
+    "slug": "react-native-v2",
     "privacy": "public",
-    "icon": "./icon.png"
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
   }
 }
